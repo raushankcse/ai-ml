@@ -1,0 +1,7 @@
+fruits_mix = set()
+print(f"{id(fruits_mix)}")
+fruits_mix.add("apple")
+print(f"{fruits_mix}")
+fruits_mix.add("banana")
+print(f"{fruits_mix}")
+print(f"{id(fruits_mix)}")
